@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+    background-color: #1F2937;
+}
+.hero-Logo{
+    font-size: 24px;
+    color: hsl(90, 17%, 98%);
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;   
+}
+ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+ul li a:hover{
+    color: hsl(95, 17%, 98%);
+}
+#hero{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+}
+.hero-text{
+    width: 450px;
+    height: auto;
+}
+.hero-text .main-text{
+    font-size: 48px;
+    font-weight:800;
+    color: #F9FAF8;
+}
+.sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 15px 0;
+}
+button{
+    width: 150px;
+    height: 45px;
+    background-color: #3780f6;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #3761f6;
+}
+.box{
+    width: 750px;
+    height: 300px;
+    background-color: #6D747D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+#body-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;   
+    padding: 50px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+.box-frame{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3780f6;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.box-description{
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+.box-model{
+    display: flex;
+    flex-direction: column;
+}
+#quotes{
+    background-color: #e5e7eb;
+    min-height: 300px;
+    padding: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 850px;
+}
+.signature{
+    text-align: right;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
