@@ -132,4 +132,27 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 350px;
+    width: 100%;
+}
+.callBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 150px;
+    background-color: #3882f6;
+    min-height: 150px;
+    border-radius: 10px;
+}
+#signupBtn{
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 1px solid white;
+}
+#signupBtn:hover{
+    background-color: hsl(230, 95%, 59%);
+}
+.banner p{
+    color: white;
 }
